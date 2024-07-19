@@ -95,7 +95,7 @@ const MyJobs = () => {
                 <div className="relative w-full px-4 max-w-full flex-grow flex-1 text-right">
                   <Link
                     to="/post-job"
-                    className="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-6 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    className="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-1 xl:px-2 md:px-2 lg:px-6 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
                   >
                     Post A New Job
