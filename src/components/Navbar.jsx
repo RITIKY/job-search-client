@@ -9,10 +9,10 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { path: "/", title: "Start a search" },
+    { path: "/", title: "Start a Search" },
     { path: "/my-job", title: "My Jobs" },
     { path: "/salary", title: "Salary Estimate" },
-    { path: "/post-job", title: "Post A Job" },
+    { path: "/post-job", title: "Post a Job" },
   ];
 
   return (
@@ -20,7 +20,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center py-6">
         <a href="/" className="flex items-center gap-2 text-black ">
           <img src="/images/Linear.png" className="w-10" />
-          <span className="text-bold">Job Hunt</span>
+          <span className="text-bold">Job Hunter</span>
         </a>
 
         <ul className="hidden md:flex gap-12">
@@ -40,11 +40,11 @@ const Navbar = () => {
         </ul>
 
         <div className="text-base text-primary font-medium space-x-5 hidden lg:block">
-          <Link to="/login" className="py-2 px-5 border rounded">
+          <Link to="" className="py-2 px-5 border rounded">
             Log In
           </Link>
           <Link
-            to="/sign-up"
+            to=""
             className="py-2 px-5 border rounded bg-blue text-white"
           >
             Sign up
@@ -64,7 +64,7 @@ const Navbar = () => {
 
       <div
         className={`px-4 bg-black py-5 rounded-sm ${
-          isMenuOpen ? "" : "hidden"
+          isMenuOpen ? "/login" : "hidden"
         }`}
       >
         <ul>

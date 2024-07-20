@@ -35,8 +35,8 @@ const Banner = ({query, handleInputChange}) => {
               name="title"
               id="title"
               placeholder="Location"
-              onChange={handleInputChange}
-              value={query}
+              // onChange={handleInputChange}
+              // value={query}
               className="block flex-1 border-0 bg-transparent py-1.5 pl-8 text-gray-900 placeholder:text-gray-400 focus:right-0 sm:text-sm sm:leading-6"
             />
           </div>
